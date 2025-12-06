@@ -525,6 +525,23 @@ ul {
 
 /* Reminders Section End */
 
+/* Posts Section Start */
+
+.posts img {
+  width: 48px;
+  height: 48px;
+}
+
+.posts .info {
+  line-height: 1.8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 140px;
+  text-transform: capitalize;
+}
+
+/* Posts Section End */
+
 /* Animation Start */
 @keyframes shake {
   0% {

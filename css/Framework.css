@@ -71,6 +71,10 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .p-10 {
   padding: 10px;
 }
@@ -133,6 +137,9 @@
 }
 .mr-15 {
   margin-right: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
 }
 .ml-auto {
   margin-left: auto;
