@@ -80,6 +80,18 @@
 .p-20 {
   padding: 20px;
 }
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 15px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
 .pr-20 {
   padding-right: 20px;
 }
@@ -104,8 +116,14 @@
 .mt-10 {
   margin-top: 10px;
 }
+.mt-15 {
+  margin-top: 15px;
+}
 .mt-20 {
   margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
 }
 .mr-auto {
   margin-right: auto;
@@ -142,6 +160,9 @@
 }
 .mb-20 {
   margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
 }
 /* End Padding + Margin */
 /* Start Colors */
@@ -243,6 +264,9 @@
 }
 .rad-10 {
   border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
 }
 /* End border */
 /* Start Components */
