@@ -40,7 +40,7 @@ ul {
 }
 .page {
   background-color: #f1f5f9;
-  min-height: 400vh;
+  min-height: 100vh;
 }
 /* End Global  */
 /* Start Sidebar */
@@ -540,6 +540,54 @@ ul {
   text-transform: capitalize;
 }
 
+/* Projects Table Start */
+
+.projects .responsive-table {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+.projects table {
+  min-width: 1000px;
+  border-spacing: 0;
+}
+
+.projects table thead {
+  background-color: var(--blue-alt-color);
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+.projects table td {
+  padding: 15px;
+}
+
+.projects tbody tr:hover td {
+  background-color: #faf7f7;
+}
+.projects tbody td {
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  transition: 0.4s;
+}
+.projects img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.projects table img {
+  width: 32px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.projects table img:not(:first-child) {
+  margin-left: -20px;
+}
+
+/* Projects Table End */
+
 /* Posts Section End */
 
 /* Animation Start */
@@ -569,4 +617,54 @@ ul {
     background-color: #fff;
   }
 }
+
 /* Animation End */
+
+.social-stats ul li .icon {
+  height: 50px;
+  width: 50px;
+  background-color: #14171a;
+  padding: 20px;
+  & i {
+    color: #fff;
+  }
+}
+.social-stats ul li .blue {
+  height: 50px;
+  width: 50px;
+  background-color: #1877f2;
+  padding: 20px;
+  & i {
+    color: #fff;
+  }
+}
+.social-stats .liblu {
+  background-color: rgb(24 119 242 / 20%);
+}
+.social-stats .youtube {
+  background-color: rgb(255 0 0 / 20%);
+}
+.social-stats ul li .red {
+  height: 50px;
+  width: 50px;
+  background-color: #dc2626;
+  padding: 20px;
+  & i {
+    color: #fff;
+  }
+}
+.social-stats .linkedin {
+  background-color: rgb(10 102 194 / 20%);
+}
+.social-stats ul li .linkedin {
+  height: 50px;
+  width: 50px;
+  background-color: #0a66c2;
+  padding: 20px;
+  & i {
+    color: #fff;
+  }
+}
+.social-stats .btn-shape {
+  cursor: pointer;
+}

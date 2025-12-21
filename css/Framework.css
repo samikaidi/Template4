@@ -173,6 +173,24 @@
 }
 /* End Padding + Margin */
 /* Start Colors */
+.x-bg {
+  background-color: rgb(101 119 134 / 20%);
+}
+.x-color {
+  color: #657786;
+}
+.x-bg-btn {
+  background-color: #657786;
+}
+.in-bg {
+  background-color: rgb(10 102 194 / 20%);
+}
+.in-color {
+  background-color: #0a66c2;
+}
+.in-col {
+  color: #0a66c2;
+}
 .bg-white {
   background-color: #fff;
 }
@@ -191,6 +209,7 @@
 .bg-red {
   background-color: var(--red-color);
 }
+
 .c-blue {
   color: var(--blue-color);
 }
